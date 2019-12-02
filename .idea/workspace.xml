@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="final:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="830eb527-5874-457b-9d16-227d7e61257f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/final_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/final_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_jar/final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war/final_war.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/dao/CanteenDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/dao/DishDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/dao/JianDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/dao/OpinionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/entity/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/entity/Jian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/entity/Opinion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/entity/OpinionToCanteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/canteen/JudgeCanteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/dish/DishChangeNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/dish/DishSelectByKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/dish/DishSelectRyWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/dish/DishShow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/dish/DishSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/jian/JianChangeNiceNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/jian/JianInsert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/jian/JianSelectByKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/jian/JianSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/jian/UploadPic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/opinoin/OpinionDefaultSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/opinoin/OpinionInsert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/user/GetCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/user/JianOfUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/user/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/servlet/user/OpinionOfUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/util/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/classes/util/MSG.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/fastjson-1.2.62.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/httpclient-4.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/httpcore-4.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/jsoup-1.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/final_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/lib/final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CanteenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DishDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/JianDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/OpinionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Jian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Opinion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/OpinionToCanteen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/canteen/JudgeCanteen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/dish/DishChangeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/dish/DishSelectByKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/dish/DishSelectRyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/dish/DishShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/dish/DishSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/jian/JianChangeNiceNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/jian/JianInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/jian/JianSelectByKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/jian/JianSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/jian/UploadPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/opinoin/OpinionDefaultSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/opinoin/OpinionInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/user/GetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/user/JianOfUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/user/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/user/OpinionOfUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MSG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/CanteenDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/DishDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/JianDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/OpinionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/entity/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/entity/Jian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/entity/Opinion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/entity/OpinionToCanteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/canteen/JudgeCanteen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/dish/DishChangeNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/dish/DishSelectByKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/dish/DishSelectRyWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/dish/DishShow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/dish/DishSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/jian/JianChangeNiceNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/jian/JianInsert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/jian/JianSelectByKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/jian/JianSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/jian/UploadPic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/opinoin/OpinionDefaultSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/opinoin/OpinionInsert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/user/GetCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/user/JianOfUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/user/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/user/OpinionOfUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/util/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/util/MSG.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\nqnqnq\.m2\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\Users\nqnqnq\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UQ6UkLe7EUjHALmWxk0Uo4IJN8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nqnqnq\IdeaProjects\final\src\main\java\servlet\dish" />
+      <recent name="C:\Users\nqnqnq\IdeaProjects\final" />
+      <recent name="C:\Users\nqnqnq\IdeaProjects\final\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.26" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/final_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="final:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/final_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_final" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61706" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="final:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830eb527-5874-457b-9d16-227d7e61257f" name="Default Changelist" comment="" />
+      <created>1575276489436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575276489436</updated>
+      <workItem from="1575276493127" duration="2754000" />
+      <workItem from="1575283587167" duration="3009000" />
+      <workItem from="1575301305564" duration="900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="501" y="266" key="#BuildArtifactsBeforeRunChooser" timestamp="1575277575771">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="266" key="#BuildArtifactsBeforeRunChooser/0.0.1440.920@0.0.1440.920" timestamp="1575277575771" />
+    <state x="313" y="119" key="#Project_Structure" timestamp="1575277026450">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1575277026450" />
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575289971130">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1575289971130" />
+    <state x="343" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575289964847">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="343" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.920@0.0.1440.920" timestamp="1575289964847" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1575302188380">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1575302188380" />
+    <state width="957" height="242" key="GridCell.Tab.0.bottom" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.0.center" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.0.left" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.0.right" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.1.bottom" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.1.center" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.1.left" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.1.right" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.2.bottom" timestamp="1575301152932">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.2.bottom/0.0.1440.920@0.0.1440.920" timestamp="1575301152932" />
+    <state width="957" height="242" key="GridCell.Tab.2.center" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.2.center/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.2.left" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.2.left/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state width="957" height="242" key="GridCell.Tab.2.right" timestamp="1575301152931">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="957" height="242" key="GridCell.Tab.2.right/0.0.1440.920@0.0.1440.920" timestamp="1575301152931" />
+    <state x="222" y="70" key="SettingsEditor" timestamp="1575290341226">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="70" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1575290341226" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1575301305920">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1575301305920" />
+    <state x="377" y="211" width="672" height="677" key="run.anything.popup" timestamp="1575289578401">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="211" width="672" height="677" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1575289578401" />
+  </component>
+</project>
